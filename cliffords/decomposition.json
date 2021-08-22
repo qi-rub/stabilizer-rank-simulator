@@ -1,0 +1,84 @@
+{
+    "t": {
+        "decomposition": [
+            {
+                "gate": "id",
+                "coeff_real": 0.541196100146197,
+                "coeff_imag": 0
+            },
+            {
+                "gate": "s",
+                "coeff_real": 0.3826834323650898,
+                "coeff_imag": -0.3826834323650898
+            }
+        ]
+    },
+    "sqrtw": {
+        "decomposition": [
+            {
+                "gate": "h,s,h",
+                "coeff_real": 0.2071067810355699,
+                "coeff_imag": -0.20710678103636113
+            },
+            {
+                "gate": "h,s,s",
+                "coeff_real": 0.2928932185832213,
+                "coeff_imag": -1.6773179808611228e-13
+            },
+            {
+                "gate": "h,s,s,s",
+                "coeff_real": 0.20710678102509453,
+                "coeff_imag": -0.2071067810250521
+            },
+            {
+                "gate": "h,s,h,s,s,s",
+                "coeff_real": 0.29289321860116896,
+                "coeff_imag": 8.851397722178647e-13
+            }
+        ]
+    },
+    "fsim": {
+        "decomposition": [
+            {
+                "gate": "cz,h1,h0,cz,h1,h0,cz,h1,h0",
+                "coeff_real": 0.08600379913782134,
+                "coeff_imag": -0.13587202289091826
+            },
+            {
+                "gate": "cz,h1,h0,cz,h1,h0,s0,cz,h1,h0,s0,h0",
+                "coeff_real": 0.009479802248687058,
+                "coeff_imag": -0.011113972727638533
+            },
+            {
+                "gate": "h1,s0,h0,cz,h1,h0,cz,h1,s1,s1,h0,s0,s0,s0",
+                "coeff_real": 0.39823157633661965,
+                "coeff_imag": -0.4668805405503243
+            },
+            {
+                "gate": "cz,h1,h0,cz,h1,s1,h0,cz,h1,s1,h1,h0",
+                "coeff_real": 0.009479836786476693,
+                "coeff_imag": -0.011114013647431389
+            },
+            {
+                "gate": "h1,s0,h0,cz,h1,h0,cz,h1,s1,h0,s0,s0",
+                "coeff_real": 0.0011555391487926587,
+                "coeff_imag": 0.014562073736263427
+            },
+            {
+                "gate": "h1,s0,h0,cz,h1,h0,cz,h1,s1,h0,s0,s0,s0",
+                "coeff_real": 0.15688984031341838,
+                "coeff_imag": -0.03526220847286316
+            },
+            {
+                "gate": "s1,h1,s0,cz,h1,h0,cz,s1,s1,h1,h0,cz,h1",
+                "coeff_real": 0.00028397245203765173,
+                "coeff_imag": -6.382498496946592e-05
+            },
+            {
+                "gate": "h1,s0,h0,cz,h1,h0,cz,h1,s1,s1,h0,s0,s0",
+                "coeff_real": 0.0860037766147048,
+                "coeff_imag": -0.13587202122169598
+            }
+        ]
+    }
+}
